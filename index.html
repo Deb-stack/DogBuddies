@@ -1,116 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>©Dog Buddies Official Website</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>©Dog Buddies Official Website</title>
-  <link rel="shortcut icon" href="img/paw-favicon.ico" type="image/x-icon">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous" />
-  <link href="stylesheet.css" rel="stylesheet" />
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
-    crossorigin="anonymous"></script>
-</head>
+    <link rel="shortcut icon" href="img/paw-favicon.ico" type="image/x-icon" />
 
-<body>
-  <!-- NAV BAR -->
-  <nav class="navbar navbar-dark navbar-expand-lg bg-dark">
-    <a href="" class="brand">DogBuddies.com</a>
-    <button class="navbar-toggler " type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
-      aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse mb-md-2" id="navbarTogglerDemo02">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a href="" class="nav-link btn btn-outline-warning mx-2 mx-sm-2 mx-md-2">SIGN UP</a></li>
-        <li><a href="" class="nav-link btn btn-primary mx-2 mx-sm-2 mx-md-2 mt-xxl-0 mt-xl-0 mt-lg-2 mt-md-2 mt-sm-2 mt-2">LOG IN</a></li>
-        <li><a href="" class="nav-link btn btn-link fs-6">Report a problem&#xBF;</a></li>
-      </ul>
-    </div>
-  </nav>
-  <div class="firstcontainer">
-    <input type="search" placeholder="Find your Buddy" class="searchbar" />
-    <a href="" class="searchbtn">FIND</a>
-    <img src="C:\Users\admin\OneDrive\Documents\Web_Development\HTML\DogBuddies\img\backgroundimg.jpg" alt="dog_img"
-      height="600px" width="100%" />
-  </div>
-  </div>
-  <div>
-    <h3>Easy to use</h3>
-    <p>So easy to use, even dog could do it.</p>
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-  </div>
-  <h2>Choose a Catogery</h2>
-  <div class="row g-0">
-    <div class="col-lg-3 col-md-6 px-1 dogs">
-      <a id="no-decor" href="#">
-        <img src="C:\Users\admin\OneDrive\Documents\Web_Development\HTML\DogBuddies\img\hearding.png" alt="Hearding"
-          class="dogsimg" />
-        <p class="dogbtn">Hearding</p>
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-6 px-1 dogs">
-      <a id="no-decor" href="#">
-        <img src="C:\Users\admin\OneDrive\Documents\Web_Development\HTML\DogBuddies\img\hounds.png" alt="Hounds"
-          class="dogsimg" />
-        <p class="dogbtn">Hounds</p>
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-6 px-1 dogs">
-      <a id="no-decor" href="">
-        <img src="C:\Users\admin\OneDrive\Documents\Web_Development\HTML\DogBuddies\img\non-sporting.png"
-          alt="Non-Sporting" class="dogsimg" />
-        <p class="dogbtn">Non-Sporting</p>
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-6 px-1 dogs">
-      <a id="no-decor" href="">
-        <img src="C:\Users\admin\OneDrive\Documents\Web_Development\HTML\DogBuddies\img\sports.png" alt="Sporting"
-          class="dogsimg" />
-        <p class="dogbtn">Sporting</p>
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-6 px-1 dogs">
-      <a id="no-decor" href=""><img
-          src="C:\Users\admin\OneDrive\Documents\Web_Development\HTML\DogBuddies\img\terrier.png" alt="terrier"
-          class="dogsimg" />
-        <p class="dogbtn">Terrier</p>
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-6 px-1 dogs">
-      <a id="no-decor" href="">
-        <img src="C:\Users\admin\OneDrive\Documents\Web_Development\HTML\DogBuddies\img\toy_breed.png" alt="toy_breed"
-          class="dogsimg" />
-        <p class="dogbtn">Toy Breed</p>
-      </a>
-    </div>
-    <div class="col-lg-3 col-md-6 px-1 dogs">
-      <a id="no-decor" href="#">
-        <img src="C:\Users\admin\OneDrive\Documents\Web_Development\HTML\DogBuddies\img\working.png" alt="working"
-          class="dogsimg" />
-        <p class="dogbtn">Working</p>
-      </a>
-    </div>
-  </div>
-  <section>Reviews</section>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1"
+      crossorigin="anonymous"
+    />
 
-  <footer>
-    <button>Download</button>
-    <button>Download</button>
-    <a href="##">Home</a>
-    <p>|</p>
-    <a href="##">Contact us</a>
-    <p>|</p>
-    <a href="##">About Us</a>
-    <p>|</p>
-    <br />
-    <p>© Copyright 2018 DogBuddies</p>
-  </footer>
-</body>
+    <link href="stylesheet.css" rel="stylesheet" />
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://kit.fontawesome.com/4057558d70.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <!-- NAV BAR -->
+    <nav class="navbar navbar-expand-lg bg-dark">
+      <a href="" class="brand">DogBuddies.com</a>
+      <button
+        class="navbar-toggler navbar-dark"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse mb-md-2" id="navbarTogglerDemo02">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a
+              href=""
+              class="nav-link btn btn-outline-warning mx-2 mx-sm-2 mx-md-2 mx-lg-2 mx-xl-2 mx-xxl-2"
+              >SIGN UP</a
+            >
+          </li>
+          <li>
+            <a
+              href=""
+              class="nav-link btn btn-primary mt-2 mt-sm-2 mt-md-2 mt-lg-0 mt-xl-0 mt-xxl-0 mx-2 mx-sm-2 mx-md-2 mx-lg-0 mx-xl-0 mx-xxl-0"
+              >LOG IN</a
+            >
+          </li>
+          <li>
+            <a href="" class="nav-link btn btn-link fs-6"
+              >Report a problem&#xBF;</a
+            >
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- SEARCH BAR & FRONT IMAGE -->
+    <div class="firstcontainer">
+      <input type="search" placeholder="Find your Buddy" class="searchbar" />
+      <a href="" class="searchbtn">FIND</a>
+      <img src="img\backgroundimg.jpg" alt="dog_img" class="frontimg" />
+    </div>
+
+    <div class="container-2">
+      <div class="item">
+        <i class="fas fa-heart fa-3x osmicon"></i>
+        <h3>Easy to use</h3>
+        <p>So easy to use, even dog could do it.</p>
+      </div>
+      <div class="item">
+        <i class="fas fa-bullseye fa-3x osmicon" style></i>
+        <h3>Elite Clientele</h3>
+        <p>We have all the dogs, the greatest dogs.</p>
+      </div>
+      <div class="item">
+        <i class="far fa-check-circle fa-3x osmicon"></i>
+        <h3>Guaranteed to work.</h3>
+        <p>Find the love of your dog's life or your money back.</p>
+      </div>
+    </div>
+    <h2>Choose a Catogery</h2>
+    <div class="row g-0">
+      <div class="col-lg-3 col-md-6 px-1 dogs">
+        <a id="no-decor" href="#">
+          <img src="img\hearding.png" alt="Hearding" class="dogsimg" />
+          <p class="dogbtn">Hearding</p>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 px-1 dogs">
+        <a id="no-decor" href="#">
+          <img src="img\hounds.png" alt="Hounds" class="dogsimg" />
+          <p class="dogbtn">Hounds</p>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 px-1 dogs">
+        <a id="no-decor" href="">
+          <img src="img\non-sporting.png" alt="Non-Sporting" class="dogsimg" />
+          <p class="dogbtn">Non-Sporting</p>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 px-1 dogs">
+        <a id="no-decor" href="">
+          <img src="img\sports.png" alt="Sporting" class="dogsimg" />
+          <p class="dogbtn">Sporting</p>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 px-1 dogs">
+        <a id="no-decor" href=""
+          ><img src="img\terrier.png" alt="terrier" class="dogsimg" />
+          <p class="dogbtn">Terrier</p>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 px-1 dogs">
+        <a id="no-decor" href="">
+          <img src="img\toy_breed.png" alt="toy_breed" class="dogsimg" />
+          <p class="dogbtn">Toy Breed</p>
+        </a>
+      </div>
+      <div class="col-lg-3 col-md-6 px-1 dogs">
+        <a id="no-decor" href="#">
+          <img src="img\working.png" alt="working" class="dogsimg" />
+          <p class="dogbtn">Working</p>
+        </a>
+      </div>
+    </div>
+    <section>Reviews</section>
+
+    <footer>
+      <button>Download</button>
+      <button>Download</button>
+      <a href="##">Home</a>
+      <p>|</p>
+      <a href="##">Contact us</a>
+      <p>|</p>
+      <a href="##">About Us</a>
+      <p>|</p>
+      <br />
+      <p>© Copyright 2018 DogBuddies</p>
+    </footer>
+  </body>
 </html>

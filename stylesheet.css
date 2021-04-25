@@ -1,5 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Anton&family=Ranchers&display=swap");
 
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* BRAND START */
 .brand {
   color: #47ace6;
@@ -17,31 +23,6 @@
   font-family: "Ranchers", cursive;
   text-decoration: none;
 }
-
-/* SIGNUP & LOGIN START
-.navbar_btn {
-  margin-right: 0.5rem;
-  border-radius: 5px;
-  background-color: lightseagreen;
-  color: #f5f5f5;
-  font-family: Verdana;
-  font-size: 12px;
-  font-weight: 600;
-  padding: 12px 5px;
-  width: 80px;
-  text-decoration: none;
-  display: inline-block;
-  cursor: pointer;
-  text-align: center;
-}
-.navbar_btn:hover {
-  box-shadow: -3px 3px 1px lightseagreen, 3px -3px 1px #16cc71;
-  color: #ffffff;
-  background-color: transparent;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  text-decoration: none;
-} */
 
 .firstcontainer {
   position: relative;
@@ -76,10 +57,61 @@
   color: #ffffff;
   text-decoration: none;
 }
+
+.frontimg {
+  height: 600px;
+  width: 100%;
+}
+
+@media screen and (max-width: 575px) {
+  .frontimg {
+    height: 200px;
+    width: 100%;
+  }
+}
+
+/* CONTAINER-2 STYLE */
+.osmicon {
+  color: #ff4c68;
+  transition-duration: 1s;
+}
+
+.osmicon:hover {
+  animation-timing-function: ease-in-out;
+  color: cornflowerblue;
+}
+
+.container-2 {
+  width: 100%;
+  padding: 50px 80px;
+  background-color: #dbcc753a;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  text-align: center;
+  line-height: 2;
+}
+
+@media screen and (max-width: 992px) {
+  .container-2 {
+    align-content: center;
+    justify-content: space-between;
+    flex-flow: column nowrap;
+  }
+
+  /* .frontimg {
+    height: 400px;
+    width: 100%;
+  } */
+}
+
 .dogs {
   text-align: center;
   text-decoration: none;
-  /* line-height: 2; */
 }
 .dogsimg {
   height: 200px;
