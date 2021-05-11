@@ -16,13 +16,8 @@ body {
   text-decoration: none;
   padding-left: 0.7rem;
 }
-
 .brand:hover {
   color: #1891d8;
-  font-size: 2rem;
-  font-weight: 400;
-  font-family: "Ranchers", cursive;
-  text-decoration: none;
 }
 
 .frontimg {
@@ -30,14 +25,6 @@ body {
   width: 100%;
   opacity: 0.9;
   transition-duration: 1s;
-}
-
-@media screen and (max-width: 575px) {
-  .frontimg {
-    height: 200px;
-    width: 100%;
-    transition-duration: 1s;
-  }
 }
 
 /* SECOND CONTAINER */
@@ -57,6 +44,7 @@ div.container-2 p {
   font-size: 15px;
   cursor: default;
 }
+
 .osmicon {
   color: #ff4c68;
   margin-bottom: 5%;
@@ -100,18 +88,22 @@ div.testimonials img {
 .card:hover {
   box-shadow: 2px 2px 10px 3px #f1ce9f8f, -2px -2px 10px 3px #f1ce9f8f;
 }
+
 .card-text {
   font-family: "Comfortaa", cursive;
   padding-bottom: 30px;
 }
+
 .card-header {
   font-family: "Montserrat", sans-serif;
 }
+
 .dogsimg {
   height: 200px;
   width: 220px;
   margin: auto;
 }
+
 .dog-header {
   font-family: "Poiret One", cursive;
   font-weight: 900;
@@ -122,16 +114,13 @@ div.testimonials img {
   cursor: default;
 }
 
-.left-align {
-  text-align: left;
-}
-
 /* FOOTER DESIGN */
 
 .foot {
   background-color: #b7bcc5;
   padding: 3% 15%;
 }
+
 ul {
   list-style-type: none;
 }
@@ -140,6 +129,5 @@ ul {
   width: 180px;
   height: 48px;
   border-radius: 8px;
-  vertical-align: middle;
   font-size: 20px;
 }
