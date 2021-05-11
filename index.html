@@ -16,6 +16,11 @@
 
     <link href="stylesheet.css" rel="stylesheet" />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+    />
+
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
@@ -69,87 +74,379 @@
     </nav>
 
     <!-- SEARCH BAR & FRONT IMAGE -->
-    <div class="firstcontainer">
-      <input type="search" placeholder="Find your Buddy" class="searchbar" />
-      <a href="" class="searchbtn">FIND</a>
+    <div>
       <img src="img\backgroundimg.jpg" alt="dog_img" class="frontimg" />
     </div>
 
+    <!-- SECOND CONTAINER -->
     <div class="container-2">
-      <div class="item">
-        <i class="fas fa-heart fa-3x osmicon"></i>
-        <h3>Easy to use</h3>
-        <p>So easy to use, even dog could do it.</p>
-      </div>
-      <div class="item">
-        <i class="fas fa-bullseye fa-3x osmicon" style></i>
-        <h3>Elite Clientele</h3>
-        <p>We have all the dogs, the greatest dogs.</p>
-      </div>
-      <div class="item">
-        <i class="far fa-check-circle fa-3x osmicon"></i>
-        <h3>Guaranteed to work.</h3>
-        <p>Find the love of your dog's life or your money back.</p>
-      </div>
-    </div>
-    <h2>Choose a Catogery</h2>
-    <div class="row g-0">
-      <div class="col-lg-3 col-md-6 px-1 dogs">
-        <a id="no-decor" href="#">
-          <img src="img\hearding.png" alt="Hearding" class="dogsimg" />
-          <p class="dogbtn">Hearding</p>
-        </a>
-      </div>
-      <div class="col-lg-3 col-md-6 px-1 dogs">
-        <a id="no-decor" href="#">
-          <img src="img\hounds.png" alt="Hounds" class="dogsimg" />
-          <p class="dogbtn">Hounds</p>
-        </a>
-      </div>
-      <div class="col-lg-3 col-md-6 px-1 dogs">
-        <a id="no-decor" href="">
-          <img src="img\non-sporting.png" alt="Non-Sporting" class="dogsimg" />
-          <p class="dogbtn">Non-Sporting</p>
-        </a>
-      </div>
-      <div class="col-lg-3 col-md-6 px-1 dogs">
-        <a id="no-decor" href="">
-          <img src="img\sports.png" alt="Sporting" class="dogsimg" />
-          <p class="dogbtn">Sporting</p>
-        </a>
-      </div>
-      <div class="col-lg-3 col-md-6 px-1 dogs">
-        <a id="no-decor" href=""
-          ><img src="img\terrier.png" alt="terrier" class="dogsimg" />
-          <p class="dogbtn">Terrier</p>
-        </a>
-      </div>
-      <div class="col-lg-3 col-md-6 px-1 dogs">
-        <a id="no-decor" href="">
-          <img src="img\toy_breed.png" alt="toy_breed" class="dogsimg" />
-          <p class="dogbtn">Toy Breed</p>
-        </a>
-      </div>
-      <div class="col-lg-3 col-md-6 px-1 dogs">
-        <a id="no-decor" href="#">
-          <img src="img\working.png" alt="working" class="dogsimg" />
-          <p class="dogbtn">Working</p>
-        </a>
+      <div class="row m-auto">
+        <div class="col-lg-4 col-sm-12 itm">
+          <i class="fas fa-heart fa-3x osmicon"></i>
+          <h3>Easy to use</h3>
+          <p>So easy to use, even dog could do it.</p>
+        </div>
+        <div class="col-lg-4 col-sm-12 itm">
+          <i class="fas fa-bullseye fa-3x osmicon" style></i>
+          <h3>Elite Clientele</h3>
+          <p>We have dogs, the greatest dogs.</p>
+        </div>
+        <div class="col-lg-4 col-sm-12 itm">
+          <i class="far fa-check-circle fa-3x osmicon"></i>
+          <h3>Guaranteed to work.</h3>
+          <p>Find the love of your dog's life or your money back.</p>
+        </div>
       </div>
     </div>
-    <section>Reviews</section>
 
-    <footer>
-      <button>Download</button>
-      <button>Download</button>
-      <a href="##">Home</a>
-      <p>|</p>
-      <a href="##">Contact us</a>
-      <p>|</p>
-      <a href="##">About Us</a>
-      <p>|</p>
-      <br />
-      <p>© Copyright 2018 DogBuddies</p>
+    <!-- Choose a dog -->
+    <h3 class="dog-header py-4 m-0">Choose your Companion</h3>
+    <div class="container-fluid">
+      <div class="row">
+
+        <!-- FIRST CARD- HOUNDS -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header text-uppercase">hounds</div>
+            <img
+              src="img/hounds.png"
+              alt="hound dog"
+              class="card-img-top dogsimg"
+            />
+            <div class="card-body">
+              <p class="card-text text-muted">
+                Hounds can be contrasted with gun dogs that assist hunters by
+                identifying the location of prey and/or recovering shot
+                quarry.The hound breeds were the first hunting dogs. They have
+                either a powerful sense of smell, great speed, or both.
+              </p>
+              <div class="left-align">
+                <a href="#" class="btn btn-lg btn-outline-secondary left-align"
+                >Veiw Details</a
+              >
+              <a href="#" class="btn btn-lg btn-dark left-align">GET ME!</a>
+              </div>
+              
+            </div>
+            <div class="card-footer">Price starting at &#8377;3000 only</div>
+          </div>
+        </div>
+
+        <!-- SECOND CARD- HEARDING -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header text-uppercase">hearding</div>
+            <img
+              src="img/hearding.png"
+              alt="hearding dog"
+              class="card-img-top dogsimg"
+            />
+            <div class="card-body">
+              <p class="card-text text-muted">
+                A herding dog, also known as a stock dog, shepherd dog or
+                working dog, is a type of dog that either has been trained in
+                herding or belongs to breeds that are developed for herding. All
+                herding behavior is modified predatory behavior.
+              </p>
+              <div class="left-align">
+                <a href="" class="btn btn-lg btn-outline-secondary left-align"
+                >Veiw Details</a
+              >
+              <a href="" class="btn btn-lg btn-dark left-align">GET ME!</a>
+              </div>
+             
+            </div>
+            <div class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-footer">
+                    Price starting at &#8377;20000 only
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-footer">Use code <span class="text-danger">DOGO</span> to get 15% OFF</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- THRID CARD- SPORTING -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header text-uppercase">sporting</div>
+            <img
+              src="img/sports.png"
+              alt="sporting dogs"
+              class="card-img-top dogsimg"
+            />
+            <div class="card-body">
+              <p class="card-text text-muted">
+                Naturally active and alert, Sporting dogs make likeable,
+                well-rounded companions. First developed to work closely with
+                hunters to locate and/or retrieve quarry.
+              </p>
+              <div class="left-align">
+                <a href="" class="btn btn-lg btn-outline-secondary left-align"
+                >View Details</a
+              >
+              <a href="" class="btn btn-lg btn-dark left-align">GET ME!</a>
+              </div>
+             
+            </div>
+            <div class="card-footer">Price starting at &#8377;5000 only</div>
+          </div>
+        </div>
+
+        <!-- FORTH CARD- NON-SPORTING -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header text-uppercase">non-sporting</div>
+            <img
+              src="img/non-sporting.png"
+              alt="Non-Sporting Breed"
+              class="card-img-top dogsimg"
+            />
+            <div class="card-body">
+              <p class="card-text text-muted">
+                Non-Sporting dogs are made up of a diverse group of breeds with
+                varying sizes, coats, personalities and overall appearance.
+                .Most are good watchdogs and housedogs.
+              </p>
+              <div class="left-align">
+                <a href="" class="btn btn-lg btn-outline-secondary left-align"
+                >View Details</a
+              >
+              <a href="" class="btn btn-lg btn-dark left-align">GET ME!</a>
+              </div>
+              
+            </div>
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-footer">
+                    Price starting at &#8377;20000 only
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-footer">Use code <span class="text-danger">DOGO</span> to get 15% OFF</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FIFTH CARD- WORKING -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header text-uppercase">working</div>
+            <img
+              src="img/working.png"
+              alt="working breed"
+              class="card-img-top dogsimg"
+            />
+            <div class="card-body">
+              <p class="card-text text-muted">
+                Quick to learn, dogs of the Working Group are intelligent,
+                strong, watchful. Bred to assist man, they excel at jobs such as
+                guarding property, pulling sleds etc.
+              </p>
+              <div class="left-align">
+                <a href="" class="btn btn-lg btn-outline-secondary left-align"
+                >View Details</a
+              >
+              <a href="" class="btn btn-lg btn-dark left-align">GET ME!</a>
+              </div>
+             
+            </div>
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-footer">
+                    Price starting at &#8377;12000 only
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-footer">Use code <span class="text-danger">DOGO</span> to get 15% OFF</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SIXTH CARD- TERRIER -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header text-uppercase">terrier</div>
+            <img
+              src="img/terrier.png"
+              alt="terrier dog"
+              class="card-img-top dogsimg"
+            />
+            <div class="card-body">
+              <p class="card-text text-muted">
+                Feisty and energetic are two of the primary traits that come to
+                mind for those who have experience with Terriers.Prospective
+                owners should know that terriers make great pets.
+              </p>
+              <div class="left-align">
+                <a href="#" class="btn btn-lg btn-outline-secondary left-align"
+                >Veiw Details</a
+              >
+              <a href="#" class="btn btn-lg btn-dark left-align">GET ME!</a>
+              </div>
+             
+            </div>
+            <div
+              id="carouselExampleSlidesOnly"
+              class="carousel slide"
+              data-bs-ride="carousel"
+            >
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="card-footer">
+                    Price starting at &#8377;35000 only
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="card-footer">Use code <span class="text-danger">PET10</span> to get 10% OFF</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- SEVENTH CARD- TOY-BREED -->
+        <div class="col-lg-3 col-md-6">
+          <div class="card">
+            <div class="card-header text-uppercase">toy-breed</div>
+            <img
+              src="img/toy_breed.png"
+              alt="hound dog"
+              class="card-img-top dogsimg"
+            />
+            <div class="card-body">
+              <p class="card-text text-muted">
+                Toy breeds might be short on size, but they are definitely not
+                short on personality! Breeds in the Toy group are affectionate,
+                sociable and adaptable to a wide range of lifestyles.
+              </p>
+              <div class="left-align">
+                <a href="#" class="btn btn-lg btn-outline-secondary"
+                >Veiw Details</a
+              >
+              <a href="#" class="btn btn-lg btn-dark left-align">GET ME!</a>
+              </div>          
+            </div>
+            <div class="card-footer">Price starting at &#8377;10000 only</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- END -->
+
+    <!-- Testimonials Slides -->
+    <div
+      id="carouselExampleIndicators"
+      class="carousel slide"
+      data-bs-ride="carousel"
+      data-bs-interval="20000"
+      data-bs-pause="hover"
+      data-bs-touch="true"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active testimonials">
+          <h2>
+            My dog used to be so lonely, but with
+            <span
+              class="brand"
+              style="padding: 0; cursor: pointer; color: #156ba1"
+              >DogBuddies</span
+            >
+            help, they've found the love of their life. I think.
+          </h2>
+          <img
+            class="testimonial-image"
+            src="img/lady-img.jpg"
+            alt="lady-profile"
+          />
+          <em>Manimegalai Mukky, Bengaluru (KA)</em>
+        </div>
+        <div class="carousel-item testimonials">
+          <h2>
+            I no longer have to sniff other dogs for love. I've found the
+            hottest Corgi on
+            <span
+              class="brand"
+              style="padding: 0; cursor: pointer; color: #156ba1"
+              >DogBuddies.</span
+            >
+            Woof.
+          </h2>
+          <img src="img/MyPhoto.jpeg" alt="dog-profile" />
+          <em>Buzo, Jabalpur (M.P.)</em>
+        </div>
+      </div>
+      <a
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </a>
+      <a
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </a>
+    </div>
+
+    <!-- Footer Section -->
+
+    <footer class="foot">
+      <div class="d-flex flex-row">
+        <div class="flex-fill">
+          <ul>
+            <li><h6 class="text-muted fw-bolder">Also Available in</h6></li>
+            <li class="mb-2"><a class="btn btn-dark custom-bottom align-middle"><i class="fab fa-app-store-ios me-2 fa-1x"></i>Download</a></li>
+            <li><a class="btn btn-dark custom-bottom"><i class="fab fa-google-play me-2 fa-1x"></i>Download</a></li>
+          </ul>
+        </div>
+        
+         <div class="flex-fill ms-4">
+           <ul>
+             <li><h6 class="text-muted text-start fw-bolder">Company</h6></li>
+             <li class="mb-3 text-start text-reset"><a href="##" class="text-reset text-decoration-none">Home</a></li>
+             <li class="mb-3 text-start"><a href="##" class="text-reset text-decoration-none">Contact us</a></li>
+             <li class="text-start"><a href="##" class="text-reset text-decoration-none">About Us</a></li>
+           </ul>
+         </div>
+
+         <div class="flex-fill me-5">
+          <h6 class="text-muted fw-bolder">Follow Us</h6>
+          <a href="" class="text-reset"><i class="fab fa-facebook-square fa-2x"></i></a>
+          <a href="" class="text-reset"><i class="fab fa-instagram fa-2x"></i></a>
+          <a href="" class="text-reset"><i class="fab fa-twitter-square fa-2x"></i></a>
+          <a href="" class="text-reset"><i class="fab fa-whatsapp-square fa-2x"></i></a>
+          <a href="" class="text-reset"><i class="fab fa-linkedin fa-2x"></i></a>
+         </div>
+      </div> 
+     <p class="mt-5">© Copyright 2018 DogBuddies</p>
     </footer>
   </body>
 </html>
