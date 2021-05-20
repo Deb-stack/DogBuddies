@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@900&family=Poiret+One&family=Ranchers&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&family=Montserrat:wght@900&family=Poiret+One&family=Ranchers&display=swap");
 
 body {
   margin: 0;
@@ -126,8 +126,61 @@ ul {
 }
 
 .custom-bottom {
-  width: 180px;
+  width: 150px;
   height: 48px;
   border-radius: 8px;
   font-size: 20px;
+}
+
+.fb-color:hover {
+  color: #4267b2;
+}
+
+.insta-color:hover {
+  background-image: radial-gradient(
+    circle at 30% 107%,
+    #fdf497 0%,
+    #fdf497 5%,
+    #fd5949 45%,
+    #d6249f 60%,
+    #285aeb 90%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.twitter-color:hover {
+  color: #1da1f2;
+}
+
+.whatsapp-color:hover {
+  color: #25d366;
+}
+
+.linkedin-color:hover {
+  color: #0077b5;
+}
+
+.fb-color,
+.insta-color,
+.whatsapp-color,
+.twitter-color,
+.linkedin-color {
+  width: 30px;
+  overflow: hidden;
+  white-space: nowrap;
+  transition-duration: 0.3s;
+  cursor: pointer;
+}
+
+.fb-color:hover,
+.insta-color:hover,
+.twitter-color:hover {
+  width: 80px;
+}
+
+.whatsapp-color:hover,
+.linkedin-color:hover {
+  width: 100px;
 }
